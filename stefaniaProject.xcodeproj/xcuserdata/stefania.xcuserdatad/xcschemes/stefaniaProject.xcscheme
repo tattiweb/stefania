@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FAE13B8A1E72AF7000373ED6"
+               BuildableName = "stefaniaProject.app"
+               BlueprintName = "stefaniaProject"
+               ReferencedContainer = "container:stefaniaProject.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FAE13B9E1E72AF7100373ED6"
+               BuildableName = "stefaniaProjectTests.xctest"
+               BlueprintName = "stefaniaProjectTests"
+               ReferencedContainer = "container:stefaniaProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FAE13BA91E72AF7100373ED6"
+               BuildableName = "stefaniaProjectUITests.xctest"
+               BlueprintName = "stefaniaProjectUITests"
+               ReferencedContainer = "container:stefaniaProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FAE13B8A1E72AF7000373ED6"
+            BuildableName = "stefaniaProject.app"
+            BlueprintName = "stefaniaProject"
+            ReferencedContainer = "container:stefaniaProject.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FAE13B8A1E72AF7000373ED6"
+            BuildableName = "stefaniaProject.app"
+            BlueprintName = "stefaniaProject"
+            ReferencedContainer = "container:stefaniaProject.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FAE13B8A1E72AF7000373ED6"
+            BuildableName = "stefaniaProject.app"
+            BlueprintName = "stefaniaProject"
+            ReferencedContainer = "container:stefaniaProject.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
